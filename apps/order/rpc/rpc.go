@@ -4,10 +4,10 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/Junhiee/lebron/apps/order/rpc/rpc/internal/config"
-	"github.com/Junhiee/lebron/apps/order/rpc/rpc/internal/server"
-	"github.com/Junhiee/lebron/apps/order/rpc/rpc/internal/svc"
-	"github.com/Junhiee/lebron/apps/order/rpc/rpc/rpc"
+	"github.com/Junhiee/lebron/apps/order/rpc/internal/config"
+	"github.com/Junhiee/lebron/apps/order/rpc/internal/server"
+	"github.com/Junhiee/lebron/apps/order/rpc/internal/svc"
+	"github.com/Junhiee/lebron/apps/order/rpc/rpc"
 
 	"github.com/zeromicro/go-zero/core/conf"
 	"github.com/zeromicro/go-zero/core/service"
