@@ -13,7 +13,7 @@ type (
 	UserCollectionAddReq {
 		ProductId int64 `json:"product_id"` // 商品id
 	}
-	UserCollectionAddRes struct{}
+	UserCollectionAddRes {}
 )
 // 添加收藏
 
@@ -22,13 +22,14 @@ type (
 	UserCollectionDelReq {
 		Id int64 `json:"id"` // 收藏Id
 	}
-	UserCollectionDelRes struct{}
+	UserCollectionDelRes {}
 )
 // 删除收藏
 
 // 收藏列表
 type (
-	UserCollectionListReq struct{}
+	UserCollectionListReq {
+	}
 	UserCollectionListRes {
 		ProductId []int64 `json:"product_id"` // 商品id
 	}

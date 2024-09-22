@@ -5,7 +5,7 @@ info(
 	desc: "订单管理"
 	author: "HUI"
 	email: "example@gmail.com"
-	version: 1.0
+	version: "v1"
 )
 
 type Orders {
