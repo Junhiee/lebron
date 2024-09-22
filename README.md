@@ -1,3 +1,4 @@
+## 目录结构
 ```shell
 .
 ├── apps
@@ -36,3 +37,7 @@
 ├── pkg
 └── README.md
 ```
+
+
+## go zero
+[go-zero api语法](https://github.com/Junhiee/lebron/blob/main/apps/app/api.md)
