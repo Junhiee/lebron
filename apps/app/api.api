@@ -172,7 +172,7 @@ service api-api {
 @server (
 	prefix: v1/user
 	group:  user
-	jwt:    JwtAuth //use jwt
+// jwt:    JwtAuth //use jwt
 )
 service api-api {
 	@doc "get user info"
@@ -213,7 +213,7 @@ service api-api {
 @server (
 	prefix: v1/order
 	group:  order
-	jwt:    JwtAuth //use jwt
+// jwt:    JwtAuth //use jwt
 )
 service api-api {
 	@doc "add order"
